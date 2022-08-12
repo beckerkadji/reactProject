@@ -1,0 +1,22 @@
+header{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.logoDiv, nav, nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logoDiv {
+    flex :1.5;
+    justify-content: flex-start;
+}
+header nav{
+    flex: 2;
+}
+nav ul{
+    width: 100%;
+}
